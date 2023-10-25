@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rent a Motorcycle</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rent a Motorcycle</h1>
+<script src ="/Test.html/test.js"></script>
+
+        <form id="rent-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="motorcycle">Motorcycle:</label>
+                <select id="motorcycle" name="motorcycle" required>
+                    <option value="">Select a motorcycle</option>
+                    <option value="honda">Honda</option>
+                    <option value="yamaha">Yamaha</option>
+                    <option value="suzuki">Suzuki</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <button type="submit">Rent</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
